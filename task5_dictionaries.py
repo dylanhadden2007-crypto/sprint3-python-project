@@ -49,7 +49,7 @@ for game in video_game_sales:
         games_per_publisher[publisher_cnt] = games_per_publisher[publisher_cnt] + 1
     else:
         games_per_publisher[publisher_cnt] = 1
-print(games_per_publisher)#part B
+print(games_per_publisher)#part B 
 
 top_game = {'name' : video_game_sales[0][NAME],'year' : video_game_sales[0][YEAR],'genre' : video_game_sales[0][GENRE],'publisher' : video_game_sales[0][PUBLISHER],'global_sales' : video_game_sales[0][GLOBAL_SALES]}
 for key, value in top_game.items():
