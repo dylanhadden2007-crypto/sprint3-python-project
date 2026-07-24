@@ -43,4 +43,4 @@ print(len(video_game_sales))#part B
 
 total_games = len(video_game_sales)
 dataset_info = (total_games,10,'Video Game Sales')#all data stays the same unless a new game is added to the data set in which it will update on its own
-print(dataset_info)#part C
+print(dataset_info)#part C 
