@@ -47,4 +47,4 @@ avg_global_sales = total_sales / len(video_game_sales)
 print(f'The AVG sales of all 20 games is {avg_global_sales}.')#part B
     
 top_game_share = (video_game_sales[0][GLOBAL_SALES] / total_sales)* 100
-print(top_game_share)#part C
+print(top_game_share)#part C 
