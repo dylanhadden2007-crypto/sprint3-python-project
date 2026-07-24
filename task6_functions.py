@@ -36,7 +36,7 @@ GLOBAL_SALES = 9
 def calculate_total_sales(game):
     total = game[NA_SALES] + game[EU_SALES] + game[JP_SALES]
     return total
-print(calculate_total_sales(video_game_sales[0]))#part A
+print(calculate_total_sales(video_game_sales[0]))#part A 
 
 def filter_by_genre(data, genre= 'Platform'):
     genres = []
