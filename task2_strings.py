@@ -42,4 +42,4 @@ for names in messy_names:
     names = names.strip().lower()
     print(names)#part B
 
-print(f'#1 Best Seller: {video_game_sales[0][1]} ({video_game_sales[0][3]}) - ${video_game_sales[0][9]}M global sales')#part C  
+print(f'#1 Best Seller: {video_game_sales[0][1]} ({video_game_sales[0][3]}) - ${video_game_sales[0][9]}M global sales')#part C
