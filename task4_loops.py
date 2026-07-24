@@ -54,7 +54,7 @@ if total_JA_sales > total_NA_sales:
     higher_sales = 'Japan'
 else:
     higher_sales = 'North America'
-print(total_JA_sales, total_NA_sales, f'The region with the higher sales is {higher_sales}.')#part C
+print(total_JA_sales, total_NA_sales, f'The region with the higher sales is {higher_sales}.')#part C 
 
 nintendo_games = []
 for game in video_game_sales:
